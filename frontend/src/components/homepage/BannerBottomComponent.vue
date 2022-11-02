@@ -1,9 +1,9 @@
 <template>
   <section class="flex flex-col md:flex-row items-center">
     <div>
-      <a href="/Sustainable-2021">
+      <router-link to="/sustainable-2021">
         <img src="/src/assets/images/bannerbottom/CC-SustainableProducts2021-Banner.jpg" alt="2021 Sustainable Products" title="2021 Sustainable Products">
-      </a>
+      </router-link>
     </div>
     <div>
       <a href="https://catalog.cottoncandy.com">
@@ -16,9 +16,9 @@
       </a>
     </div>
     <div>
-      <a href="/homefront-connection">
+      <router-link to="/homefront-connection">
         <img src="/src/assets/images/bannerbottom/HC-shift-down2.jpg" alt="Homefront Connection" title="Homefront Connection">
-      </a>
+      </router-link>
     </div>
   </section>
 </template>

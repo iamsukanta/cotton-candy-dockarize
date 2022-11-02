@@ -19,6 +19,11 @@ const router = createRouter({
       component: () => import("../views/ServicesView.vue"),
     },
     {
+      path: "/sustainable-2021",
+      name: "sustainable2021",
+      component: () => import("../views/SustainableView.vue"),
+    },
+    {
       path: "/homefront-connection",
       name: "homefront-connection",
       component: () => import("../views/HomefrontConnection.vue"),
